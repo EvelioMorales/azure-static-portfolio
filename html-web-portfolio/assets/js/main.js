@@ -81,6 +81,7 @@
 
 			var $gallery = $('.gallery');
 
+			/*
 			$gallery.poptrox({
 				baseZIndex: 10001,
 				useBodyOverflow: false,
@@ -93,6 +94,7 @@
 				windowMargin: 50,
 				usePopupNav: true
 			});
+			*/
 
 			// Hack: Adjust margins when 'small' activates.
 				breakpoints.on('>small', function() {
