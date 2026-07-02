@@ -1,25 +1,61 @@
+# azure-static-portfolio
+
 # Azure Static Portfolio Website with Azure Static Web Apps & GitHub CI/CD
 
-## Project Overview
+## Project Summary
 
-This project is a professional resume portfolio website customized from the **HTML5 UP Big Picture** template and deployed using **Azure Static Web Apps** with **GitHub-based CI/CD**.
+This project is a professional IT, cloud, and cybersecurity resume portfolio website customized from the **HTML5 UP Big Picture** template and deployed with **Azure Static Web Apps** using **GitHub-based CI/CD**.
 
-The goal of this project was to build and document a real-world cloud portfolio that demonstrates front-end customization, GitHub version control, Azure deployment, CI/CD automation, responsive design updates, and troubleshooting skills.
+The goal of this project was to turn a free responsive HTML template into a recruiter-ready personal portfolio that presents my resume, certifications, technical projects, GitHub repositories, and contact information in one place. The project also demonstrates practical skills in front-end customization, Git version control, cloud deployment, continuous deployment, troubleshooting, and technical documentation.
 
-The website presents my resume, certifications, hands-on cloud projects, GitHub repositories, and contact information in a clean recruiter-friendly format.
+---
+
+## Project Goals
+
+- Build a professional resume portfolio for IT support, cloud support, cloud engineering, and cybersecurity roles.
+- Customize an existing HTML5 UP template into a personal technical portfolio.
+- Add a downloadable resume for employers and recruiters.
+- Create a project gallery that links directly to GitHub repositories.
+- Document certifications, technical skills, and hands-on cloud/security projects.
+- Deploy the website using Azure Static Web Apps.
+- Use GitHub and CI/CD to track changes and automate deployment.
+- Document issues encountered and fixes applied to show problem-solving ability.
 
 ---
 
 ## Live Portfolio Features
 
-The portfolio includes the following sections:
+The portfolio website includes the following sections:
 
-- **Home** — Intro section with professional headline, resume button, and quick portfolio overview.
-- **What I Do** — Summary of IT support, cloud engineering, cybersecurity, troubleshooting, and documentation skills.
-- **Who I Am** — Professional background, bilingual support, hands-on learning, and career direction.
-- **Certifications & Training** — IT, cloud, cybersecurity, SOC, and Terraform-related training.
-- **My Work** — Project gallery with clickable project cards that route to GitHub repositories.
-- **Contact** — Email, resume download, GitHub link, and LinkedIn link.
+### Home
+
+The landing section introduces me as an IT support, cloud engineering, and cybersecurity-focused professional. It includes a professional headline, short portfolio summary, and a **View Resume** button.
+
+### What I Do
+
+This section summarizes my technical focus areas, including IT support, troubleshooting, documentation, cloud projects, and security-focused work. A side panel was added to make the section more visually balanced and easier for recruiters to scan.
+
+### Who I Am
+
+This section introduces my professional background, bilingual support experience, hands-on learning approach, and career direction. A matching side panel was added to highlight career strengths without repeating the same information from the main paragraph.
+
+### Certifications & Training
+
+This section lists certifications and training related to IT support, cloud computing, cybersecurity, SOC analysis, and Terraform.
+
+### My Work
+
+This section presents six project cards. Each card includes:
+
+- A project image
+- A visible project title
+- A short project summary
+- A skills line
+- A clickable GitHub project link
+
+### Contact
+
+The contact section includes a clear call-to-action, email address, resume button, GitHub icon, and LinkedIn icon. The original form was removed so recruiters do not need to fill out a contact form.
 
 ---
 
@@ -38,428 +74,377 @@ The portfolio includes the following sections:
 
 ---
 
-## Template Customization Summary
+## Cloud and Deployment Services
 
-This project started from the **Big Picture** template by HTML5 UP. The template was customized into a professional IT, cloud, and cybersecurity portfolio.
+### Azure Static Web Apps
 
-### Major HTML Changes
+Used to host and deploy the static portfolio website.
 
-- Replaced default template content with custom resume portfolio content.
-- Updated page navigation to include Home, What I Do, Who I Am, Certifications & Training, My Work, and Contact.
-- Added a professional intro headline: `Hello, I'm Evelio.` and `IT Support • Cloud Engineering • Cybersecurity`.
-- Added a **View Resume** button that opens `resume.pdf`.
-- Added custom side panels to balance the blank visual space in the What I Do and Who I Am sections.
-- Added highlight cards for quick recruiter scanning.
-- Added a Certifications & Training section.
-- Rebuilt the My Work section into project cards.
-- Added project titles, descriptions, skills, and GitHub links.
-- Added a direct Contact section with email, resume button, GitHub icon, and LinkedIn icon.
-- Added footer attribution for HTML5 UP.
+### GitHub Actions
+
+Used for continuous integration and continuous deployment. Changes pushed to the GitHub repository can trigger the deployment workflow.
+
+### GitHub Repository
+
+Used for version control, project documentation, README updates, and source code management.
 
 ---
 
-## Current Website Sections
+## Template Customization Work
 
-### Home
+This project started with the **Big Picture** template from HTML5 UP. The template was customized to fit a professional resume portfolio.
 
-The Home section introduces the portfolio, career focus, resume download, and project direction.
+### Original Template Behavior
 
-### What I Do
+The original template included:
 
-This section explains my focus on technical support, cloud engineering, cybersecurity, documentation, and hands-on project work.
+- Generic landing page text
+- Placeholder sections
+- Default gallery images
+- A contact form placeholder
+- Social media icons not specific to the portfolio
+- Image lightbox behavior for gallery photos
 
-### Who I Am
+### Custom Changes Made
 
-This section introduces my professional background as a bilingual IT professional focused on support, cloud, and cybersecurity.
+- Replaced the default landing page with a professional portfolio introduction.
+- Changed navigation from generic labels to recruiter-friendly sections.
+- Added a focused headline: **IT Support • Cloud Engineering • Cybersecurity**.
+- Added a **View Resume** button on the landing page.
+- Added a **Certifications & Training** section.
+- Replaced placeholder gallery items with real cloud and cybersecurity projects.
+- Linked each project image to its GitHub repository.
+- Added visible project titles, summaries, skills, and **View Project on GitHub** links.
+- Removed the contact form and replaced it with direct contact options.
+- Added GitHub and LinkedIn icons that route to the correct profiles.
+- Added a footer with personal copyright and HTML5 UP attribution.
+- Added side panels to balance the layout in the What I Do and Who I Am sections.
+- Updated CSS for project cards, responsive gallery layout, highlight cards, and side panels.
 
-### Certifications & Training
+---
 
-This section lists relevant certifications and training, including:
+## Project Gallery
 
-- CompTIA A+
-- Microsoft Azure Fundamentals — AZ-900
-- Google Cybersecurity Certificate
-- SOC Analyst Training
-- Terraform Hands-On Training
+The portfolio includes the following projects:
 
-### My Work
+### 1. Azure Static Web Apps + GitHub CI/CD
 
-The project gallery includes six portfolio projects:
+Built and deployed a static portfolio website using Azure Static Web Apps with GitHub-based CI/CD automation.
 
-1. **Azure Static Web Apps + GitHub CI/CD**
-2. **AWS IAM Security + EC2 Segmentation**
-3. **Azure Remote Development Environment**
-4. **Static Website Hosting on Amazon S3**
-5. **AWS Image Label Generator**
-6. **Terraform AWS Multi-AZ VPC**
+**Skills:** Azure Static Web Apps, GitHub Actions, CI/CD, HTML, CSS
 
-Each project card includes:
+### 2. AWS IAM Security + EC2 Segmentation
 
-- Project image
-- Project title
-- Project summary
-- Skills used
-- Clickable image linking to GitHub
-- Visible `View Project on GitHub` link
+Designed an AWS security lab using IAM access controls, EC2 resources, and segmented environments to demonstrate least privilege and secure cloud administration.
 
-### Contact
+**Skills:** AWS IAM, EC2, Security Groups, Least Privilege, Cloud Security
 
-The contact section includes:
+### 3. Azure Remote Development Environment
 
-- Email link
-- Resume button
-- GitHub profile link
-- LinkedIn profile link
+Created a remote development environment using Azure infrastructure, Terraform, Docker, and VS Code SSH to support cloud-based development workflows.
+
+**Skills:** Azure, Terraform, Docker, VS Code SSH, Linux
+
+### 4. Static Website Hosting on Amazon S3
+
+Hosted a static website on Amazon S3 to demonstrate cloud storage configuration, public website hosting, and basic AWS deployment practices.
+
+**Skills:** Amazon S3, AWS, Static Hosting, Bucket Policy, HTML, CSS
+
+### 5. AWS Image Label Generator
+
+Built an image-labeling project using Amazon Rekognition and S3 to identify objects in uploaded images and demonstrate cloud-based AI services.
+
+**Skills:** Amazon Rekognition, Amazon S3, AWS, Python, Cloud AI
+
+### 6. Terraform AWS Multi-AZ VPC
+
+Provisioned a multi-AZ AWS VPC proof of concept with Terraform to demonstrate infrastructure as code, networking, and scalable cloud architecture.
+
+**Skills:** Terraform, AWS VPC, Subnets, Routing, Infrastructure as Code
 
 ---
 
 ## Problems Encountered and Fixes
 
-This project included several real troubleshooting steps that improved the final site.
+This project involved several real troubleshooting issues. The fixes below show how I identified problems, researched the cause, and updated the code or Git workflow.
 
-### Issue 1: Project Images Did Not Redirect to GitHub
+### Issue 1: Project Images Did Not Route to GitHub
 
 **Problem:**  
-The original gallery images opened image files or did not redirect correctly when clicked.
+After replacing the image links with GitHub repository URLs, clicking the project images did not always redirect to GitHub.
 
 **Cause:**  
-The HTML5 UP template was originally designed as an image gallery/lightbox. The default gallery link structure pointed to full-size images instead of GitHub repositories.
+The original HTML5 UP Big Picture template uses a gallery/lightbox behavior. The gallery script can intercept clicks on images and open them as lightbox items instead of routing to external GitHub repositories.
 
-**Fix:**  
-Each image anchor tag was updated to point directly to the correct GitHub repository.
+**Fix:**
 
-Example:
+- Changed the anchor class from the original image/lightbox behavior to a custom class: `project-link`.
+- Updated each project image link to use the GitHub repository URL.
+- Added `target="_blank"` so the project opens in a new browser tab.
+- Added `rel="noopener noreferrer"` for safer external linking.
+- Added visible **View Project on GitHub** links under each project card so users clearly know the cards route to GitHub.
 
-```html
-<a href="https://github.com/EvelioMorales/example-project"
-   class="project-link"
-   target="_blank"
-   rel="noopener noreferrer">
-```
-
-A custom `project-link` class was also added to support GitHub project navigation.
+**Skill Demonstrated:** HTML troubleshooting, template behavior analysis, external linking, user experience improvement.
 
 ---
 
-### Issue 2: Gallery Cards Looked Crowded After Adding Text
+### Issue 2: Project Cards Looked Crowded
 
 **Problem:**  
-After adding project titles, descriptions, and skills, the project section became crowded and text overlapped.
+After adding project titles, descriptions, and skills under each image, the project section looked crowded and text overlapped visually.
 
 **Cause:**  
-The original gallery layout was designed for images only. Once project descriptions were added, the old spacing and fixed image layout no longer worked well.
+The original gallery layout was designed mainly for images, not for full project cards with text content. Fixed image/card sizing caused the text to feel compressed.
 
-**Fix:**  
-The gallery CSS was updated to use a wider layout, better spacing, consistent image heights, and cleaner project-card formatting.
+**Fix:**
 
-Key CSS updates included:
+- Updated gallery CSS to use a wider layout.
+- Added spacing with `gap` and `margin-bottom`.
+- Set the image height on `.project-link` instead of forcing a fixed height on the entire article.
+- Added text styling for project titles and project descriptions.
+- Added responsive CSS so project cards stack cleanly on smaller screens.
 
-```css
-.gallery {
-	display: flex;
-	flex-wrap: wrap;
-	width: 65em;
-	max-width: 100%;
-	gap: 2em;
-}
-
-.gallery article {
-	width: calc(50% - 1em);
-	text-align: center;
-	margin-bottom: 2em;
-}
-```
+**Skill Demonstrated:** CSS layout troubleshooting, responsive design, project-card UI improvement.
 
 ---
 
-### Issue 3: Resume Button Needed a Valid File Path
+### Issue 3: Contact Form Was Not Useful for Recruiters
 
 **Problem:**  
-The resume button needed to open the resume correctly from the website.
+The original template included a contact form, but the form did not submit anywhere because the action was set to `#`.
 
 **Cause:**  
-The site link used `resume.pdf`, so the PDF had to be placed in the same folder as `index.html`.
+Static websites do not process form submissions by default unless connected to a backend service or third-party form handler.
 
-**Fix:**  
-The resume file was saved as:
+**Fix:**
 
-```text
-html-web-portfolio/resume.pdf
-```
+- Removed the contact form.
+- Replaced it with a direct email link using `mailto:`.
+- Added a resume download button.
+- Added clickable GitHub and LinkedIn icons.
+- Wrote a stronger recruiter-focused call-to-action.
 
-The button uses:
+**Skill Demonstrated:** Static site limitation awareness, UX improvement, recruiter-focused design.
+
+---
+
+### Issue 4: Resume Link Needed Correct File Placement
+
+**Problem:**  
+The resume button required the PDF file to be saved in the correct location.
+
+**Cause:**  
+The HTML button used a relative path: `resume.pdf`. If the resume was placed inside the wrong folder, the link would not work.
+
+**Fix:**
+
+- Saved the resume PDF in the same folder as `index.html`.
+- Used this link structure:
 
 ```html
 <a href="resume.pdf" class="button" target="_blank" rel="noopener noreferrer">View Resume</a>
 ```
 
----
-
-### Issue 4: Contact Form Was Not Needed
-
-**Problem:**  
-The original template included a contact form, but the form did not send messages without a backend service.
-
-**Cause:**  
-The template used a placeholder form action.
-
-**Fix:**  
-The form was removed and replaced with a simple recruiter-friendly contact section containing email, resume, GitHub, and LinkedIn links.
+**Skill Demonstrated:** Relative path troubleshooting, static website file organization.
 
 ---
 
-### Issue 5: Footer Was Outside the HTML Body
+### Issue 5: HTML Structure Needed Cleanup
 
 **Problem:**  
-The footer was accidentally placed after the closing `</html>` tag.
+Some closing tags were misplaced while editing the gallery and footer sections.
 
 **Cause:**  
-The footer was added after the scripts and closing document tags.
+The original template had nested section, content, gallery, and article elements. While adding new project cards, extra closing tags could break layout structure.
 
-**Fix:**  
-The footer was moved inside the `<body>` before the JavaScript scripts.
+**Fix:**
 
-Correct structure:
+- Corrected the gallery closing structure:
 
 ```html
-<footer id="footer">
-	<ul class="menu">
-		<li>&copy; Evelio Morales Jr.</li>
-		<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-	</ul>
-</footer>
-
-<script src="assets/js/jquery.min.js"></script>
-...
-</body>
-</html>
+</div>     <!-- closes .gallery -->
+</div>     <!-- closes .content -->
+</section> <!-- closes #work -->
 ```
+
+- Moved the footer inside the `<body>` before the script tags.
+- Confirmed each section closes before the next section starts.
+
+**Skill Demonstrated:** HTML debugging, DOM structure cleanup, template editing.
 
 ---
 
-### Issue 6: Blank Space in What I Do and Who I Am Sections
+### Issue 6: Side Panels Repeated Information
 
 **Problem:**  
-The left and right sides of the template sections felt empty.
+The What I Do and Who I Am side panels repeated information already listed in the highlight cards.
 
 **Cause:**  
-The original Big Picture template uses large fullscreen sections with content aligned to one side, leaving open visual space.
+The first version of the side panels used similar wording to the main section cards.
 
-**Fix:**  
-Side panels were added for quick-scan information such as tools, strengths, or career direction.
+**Fix:**
 
-CSS was added for reusable side panels:
+- Updated the side panels so they serve a different purpose.
+- Used the side panels for quick-scan information.
+- Used the highlight cards for strengths and proof points.
 
-```css
-.side-panel {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	width: 22em;
-	padding: 2em;
-	background: rgba(255, 255, 255, 0.82);
-	color: #39454b;
-	border-radius: 0.5em;
-	box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.12);
-	z-index: 2;
-}
-```
+**Skill Demonstrated:** Content refinement, recruiter-focused UX, information architecture.
 
 ---
 
-### Issue 7: Repeated Information Between Panels and Highlight Cards
+### Issue 7: Git Push Failed Because Branch Had No Upstream
 
 **Problem:**  
-The side panels and highlight cards repeated similar information.
+Running `git push` produced this message:
+
+```bash
+fatal: The current branch main has no upstream branch.
+```
 
 **Cause:**  
-Both areas originally described the same skill categories.
+The local `main` branch was not yet connected to the remote GitHub `main` branch.
 
-**Fix:**  
-The side panels were adjusted to show quick-scan categories such as tools, technologies, or career direction, while the main highlight cards explain strengths and practical skills.
+**Fix:**
 
-This made each section serve a different purpose:
-
-- **Side panel:** quick visual scan
-- **Paragraph:** professional explanation
-- **Highlight cards:** proof points and strengths
-
----
-
-## Git and GitHub Issues Resolved
-
-This project also included Git troubleshooting.
-
-### Issue: Not a Git Repository
-
-**Error:**
-
-```bash
-fatal: not a git repository (or any of the parent directories): .git
-```
-
-**Fix:**  
-Navigated to the correct project folder containing the `.git` directory before running Git commands.
-
----
-
-### Issue: Commit Attempt Before Staging Files
-
-**Error:**
-
-```bash
-no changes added to commit
-```
-
-**Fix:**  
-Staged files before committing:
-
-```bash
-git add .
-git commit -m "Update portfolio website with project cards and resume"
-```
-
----
-
-### Issue: No Upstream Branch
-
-**Error:**
-
-```bash
-fatal: The current branch main has no upstream branch
-```
-
-**Fix:**  
-Connected the local branch to the remote GitHub branch:
+Used:
 
 ```bash
 git push --set-upstream origin main
 ```
 
+**Skill Demonstrated:** Git branch tracking, remote repository setup.
+
 ---
 
-### Issue: Non-Fast-Forward Push Rejection
+### Issue 8: Push Rejected Due to Remote Changes
 
-**Error:**
+**Problem:**  
+Git rejected the push because the local branch was behind the remote branch.
 
-```bash
-! [rejected] main -> main (non-fast-forward)
-```
+**Cause:**  
+The GitHub repository had changes that were not yet in the local repository.
 
-**Fix:**  
-Pulled remote changes using rebase before pushing:
+**Fix:**
+
+- Pulled remote changes with rebase.
+- Resolved README conflict.
+- Staged the resolved README file.
+- Continued the rebase.
+- Pushed successfully to GitHub.
+
+Commands used during the process included:
 
 ```bash
 git pull --rebase origin main
-```
-
----
-
-### Issue: Rebase Conflict with README.md
-
-**Problem:**  
-A conflict occurred because `README.md` was deleted remotely but modified locally.
-
-**Fix:**  
-Kept the updated README, staged the file, continued the rebase, and pushed again:
-
-```bash
 git add README.md
 git rebase --continue
 git push --set-upstream origin main
 ```
 
+**Skill Demonstrated:** Git conflict resolution, rebase workflow, version control troubleshooting.
+
 ---
 
-## Project Folder Structure
+## Final Website Structure
 
 ```text
-azure-static-portfolio
+azure-static-portfolio/
 │
 ├── README.md
-├── html-web-portfolio
+├── html-web-portfolio/
 │   ├── index.html
 │   ├── resume.pdf
-│   ├── assets
-│   │   ├── css
+│   ├── assets/
+│   │   ├── css/
 │   │   │   └── main.css
-│   │   └── js
+│   │   └── js/
 │   │       └── main.js
-│   └── images
-│       ├── thumbs
-│       └── fulls
+│   └── images/
+│       ├── thumbs/
+│       └── fulls/
 ```
 
 ---
 
-## Deployment Workflow
+## Key Skills Demonstrated
 
-This project is designed to deploy through Azure Static Web Apps and GitHub Actions.
-
-Typical workflow:
-
-1. Update website files locally.
-2. Test the website in the browser.
-3. Stage changes with Git.
-4. Commit changes.
-5. Push changes to GitHub.
-6. GitHub Actions triggers the Azure Static Web Apps deployment.
-7. Azure hosts the updated website with managed HTTPS.
-
-Example commands:
-
-```bash
-git status
-git add .
-git commit -m "Update portfolio website"
-git push
-```
-
----
-
-## Skills Demonstrated
-
-This project demonstrates:
-
-- Static website customization
-- HTML and CSS editing
+- Static website development
+- HTML and CSS customization
 - Responsive design troubleshooting
 - Git and GitHub version control
 - GitHub Actions deployment workflow
 - Azure Static Web Apps hosting
-- Resume portfolio development
-- Documentation writing
-- Troubleshooting and problem solving
-- Recruiter-focused project presentation
-- Cloud portfolio branding
+- Resume portfolio design
+- Technical documentation
+- Cloud project presentation
+- Problem-solving and debugging
+- Recruiter-focused project organization
 
 ---
 
-## Lessons Learned
+## How to Run Locally
 
-Through this project, I practiced more than just building a static website. I learned how to troubleshoot layout issues, fix Git workflow errors, improve recruiter-facing content, organize project documentation, and connect a local website project to a cloud deployment workflow.
+1. Clone the repository:
 
-This project helped strengthen my understanding of:
+```bash
+git clone https://github.com/EvelioMorales/azure-static-portfolio.git
+```
 
-- How static websites are structured
-- How portfolio content should be organized for employers
-- How GitHub repositories should be documented
-- How to resolve common Git errors
-- How to customize a template without misrepresenting the original design
-- How to use Azure Static Web Apps for simple cloud hosting
+2. Open the project folder:
+
+```bash
+cd azure-static-portfolio/html-web-portfolio
+```
+
+3. Open `index.html` in a browser.
+
+---
+
+## How to Update the Website
+
+1. Make changes to the website files.
+2. Stage the changes:
+
+```bash
+git add .
+```
+
+3. Commit the changes:
+
+```bash
+git commit -m "Update portfolio website"
+```
+
+4. Push to GitHub:
+
+```bash
+git push
+```
+
+5. Azure Static Web Apps will redeploy the site through the GitHub workflow.
+
+---
+
+## Future Improvements
+
+- Add a live website URL once deployment is complete.
+- Add project screenshots or architecture diagrams for each project.
+- Add badges for Azure, AWS, Terraform, GitHub Actions, and CompTIA A+.
+- Add a dedicated skills section with categorized tools.
+- Add accessibility testing and performance optimization.
+- Add custom domain support.
 
 ---
 
 ## Template Credit
 
-This project uses the **Big Picture** template from [HTML5 UP](https://html5up.net).  
-The template was customized for my personal resume portfolio and is used under the Creative Commons Attribution license.
+This project uses the **Big Picture** template from **HTML5 UP**. The template was customized for my personal resume portfolio and is used under the Creative Commons Attribution license.
+
+Template: https://html5up.net/big-picture
 
 ---
 
-## Author
+## About Me
 
-**Evelio Morales Jr.**  
-IT Support | Cloud Engineering | Cybersecurity  
-GitHub: [EvelioMorales](https://github.com/EvelioMorales)  
-LinkedIn: [Evelio Morales Jr.](https://www.linkedin.com/in/evelio-morales-jr101/)
+I am Evelio Morales Jr., a bilingual IT professional focused on technical support, cloud engineering, and cybersecurity. This portfolio was built to demonstrate hands-on technical growth, cloud project experience, documentation skills, and readiness for IT support, cloud support, and cybersecurity-related roles.
