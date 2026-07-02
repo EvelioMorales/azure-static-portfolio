@@ -4,6 +4,8 @@
 
 ## Project Summary
 
+[Azure Website Project Diagram]()
+
 This project is a professional IT, cloud, and cybersecurity resume portfolio website customized from the **HTML5 UP Big Picture** template and deployed with **Azure Static Web Apps** using **GitHub-based CI/CD**.
 
 The goal of this project was to turn a free responsive HTML template into a recruiter-ready personal portfolio that presents my resume, certifications, technical projects, GitHub repositories, and contact information in one place. The project also demonstrates practical skills in front-end customization, Git version control, cloud deployment, continuous deployment, troubleshooting, and technical documentation.
