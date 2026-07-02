@@ -1,5 +1,3 @@
-# azure-static-portfolio
-
 # Azure Static Portfolio Website with Azure Static Web Apps & GitHub CI/CD
 
 ## Project Summary
