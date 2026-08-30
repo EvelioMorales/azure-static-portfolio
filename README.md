@@ -1,450 +1,171 @@
-# Azure Static Portfolio Website with Azure Static Web Apps & GitHub CI/CD
+<div align="center">
 
-## Project Summary
+<img src="images/banner.svg" alt="Vulnerability Management Program banner" width="100%" />
 
-[Azure Website Project Diagram]()
+# Vulnerability Management Program
 
-This project is a professional IT, cloud, and cybersecurity resume portfolio website customized from the **HTML5 UP Big Picture** template and deployed with **Azure Static Web Apps** using **GitHub-based CI/CD**.
+**Standing up a vulnerability management program from zero — policy, stakeholder buy-in, and a full remediation cycle on a simulated enterprise network.**
 
-The goal of this project was to turn a free responsive HTML template into a recruiter-ready personal portfolio that presents my resume, certifications, technical projects, GitHub repositories, and contact information in one place. The project also demonstrates practical skills in front-end customization, Git version control, cloud deployment, continuous deployment, troubleshooting, and technical documentation.
+[![Portfolio](https://img.shields.io/badge/Portfolio-ev--portfolio.com-1E293B?style=flat-square)](https://ev-portfolio.com)
+[![Tools](https://img.shields.io/badge/Tools-Tenable%20%7C%20Azure%20%7C%20PowerShell%20%7C%20Bash-334155?style=flat-square)](#tools--technology)
 
----
-
-## Project Goals
-
-- Build a professional resume portfolio for IT support, cloud support, cloud engineering, and cybersecurity roles.
-- Customize an existing HTML5 UP template into a personal technical portfolio.
-- Add a downloadable resume for employers and recruiters.
-- Create a project gallery that links directly to GitHub repositories.
-- Document certifications, technical skills, and hands-on cloud/security projects.
-- Deploy the website using Azure Static Web Apps.
-- Use GitHub and CI/CD to track changes and automate deployment.
-- Document issues encountered and fixes applied to show problem-solving ability.
+</div>
 
 ---
 
-## Live Portfolio Features
+## At a Glance
 
-The portfolio website includes the following sections:
+| | |
+|---|---|
+| **Role** | Vulnerability Management Analyst (simulated program owner, start to finish) |
+| **Scope** | Policy creation → stakeholder buy-in → scanning → prioritization → remediation → maintenance |
+| **Result** | **81% reduction** in vulnerabilities (26 → 5) in the first remediation cycle, **100%** of critical findings resolved |
+| **Environment** | Windows Server target, provisioned and scanned on Azure |
+| **Core tools** | Tenable / Nessus, PowerShell, Bash, Azure Virtual Machines |
 
-### Home
-
-The landing section introduces me as an IT support, cloud engineering, and cybersecurity-focused professional. It includes a professional headline, short portfolio summary, and a **View Resume** button.
-
-### What I Do
-
-This section summarizes my technical focus areas, including IT support, troubleshooting, documentation, cloud projects, and security-focused work. A side panel was added to make the section more visually balanced and easier for recruiters to scan.
-
-### Who I Am
-
-This section introduces my professional background, bilingual support experience, hands-on learning approach, and career direction. A matching side panel was added to highlight career strengths without repeating the same information from the main paragraph.
-
-### Certifications & Training
-
-This section lists certifications and training related to IT support, cloud computing, cybersecurity, SOC analysis, and Terraform.
-
-### My Work
-
-This section presents six project cards. Each card includes:
-
-- A project image
-- A visible project title
-- A short project summary
-- A skills line
-- A clickable GitHub project link
-
-### Contact
-
-The contact section includes a clear call-to-action, email address, resume button, GitHub icon, and LinkedIn icon. The original form was removed so recruiters do not need to fill out a contact form.
+> **Inception:** no vulnerability management policy or practices existed.
+> **Completion:** a signed-off policy, buy-in from every stakeholder team, and one full remediation cycle delivered end to end.
 
 ---
 
-## Technologies Used
+## Table of Contents
 
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub
-- GitHub Actions
-- Azure Static Web Apps
-- Azure-managed HTTPS
-- HTML5 UP Big Picture Template
-- Font Awesome Icons
-
----
-
-## Cloud and Deployment Services
-
-### Azure Static Web Apps
-
-Used to host and deploy the static portfolio website.
-
-### GitHub Actions
-
-Used for continuous integration and continuous deployment. Changes pushed to the GitHub repository can trigger the deployment workflow.
-
-### GitHub Repository
-
-Used for version control, project documentation, README updates, and source code management.
+- [Project Overview](#project-overview)
+- [Tools & Technology](#tools--technology)
+- [Program Walkthrough](#program-walkthrough)
+  - [1. Draft the Policy](#1-draft-the-policy)
+  - [2. Stakeholder Buy-In Meeting](#2-stakeholder-buy-in-meeting)
+  - [3. Policy Finalization & Sign-Off](#3-policy-finalization--sign-off)
+  - [4. Scan Permission Meeting](#4-scan-permission-meeting)
+  - [5. Initial Discovery Scan](#5-initial-discovery-scan)
+  - [6. Assessment & Prioritization](#6-assessment--prioritization)
+  - [7. Distribute Remediations](#7-distribute-remediations)
+  - [8. Post-Scan Review Meeting](#8-post-scan-review-meeting)
+  - [9. Change Advisory Board (CAB) Approval](#9-change-advisory-board-cab-approval)
+  - [10. Remediation Cycle](#10-remediation-cycle)
+- [Results](#results)
+- [Ongoing Maintenance](#ongoing-maintenance)
 
 ---
 
-## Template Customization Work
+## Project Overview
 
-This project started with the **Big Picture** template from HTML5 UP. The template was customized to fit a professional resume portfolio.
-
-### Original Template Behavior
-
-The original template included:
-
-- Generic landing page text
-- Placeholder sections
-- Default gallery images
-- A contact form placeholder
-- Social media icons not specific to the portfolio
-- Image lightbox behavior for gallery photos
-
-### Custom Changes Made
-
-- Replaced the default landing page with a professional portfolio introduction.
-- Changed navigation from generic labels to recruiter-friendly sections.
-- Added a focused headline: **IT Support • Cloud Engineering • Cybersecurity**.
-- Added a **View Resume** button on the landing page.
-- Added a **Certifications & Training** section.
-- Replaced placeholder gallery items with real cloud and cybersecurity projects.
-- Linked each project image to its GitHub repository.
-- Added visible project titles, summaries, skills, and **View Project on GitHub** links.
-- Removed the contact form and replaced it with direct contact options.
-- Added GitHub and LinkedIn icons that route to the correct profiles.
-- Added a footer with personal copyright and HTML5 UP attribution.
-- Added side panels to balance the layout in the What I Do and Who I Am sections.
-- Updated CSS for project cards, responsive gallery layout, highlight cards, and side panels.
+This project simulates running a vulnerability management program inside an organization that has none — from writing the first policy draft through closing out a complete remediation cycle. It's built to mirror the real workflow of a vulnerability management analyst: draft and negotiate policy, get cross-team buy-in, run authenticated scans, triage and prioritize findings, hand off remediation work, and track results through follow-up scans.
 
 ---
 
-## Project Gallery
+## Tools & Technology
 
-The portfolio includes the following projects:
-
-### 1. Azure Static Web Apps + GitHub CI/CD
-
-Built and deployed a static portfolio website using Azure Static Web Apps with GitHub-based CI/CD automation.
-
-**Skills:** Azure Static Web Apps, GitHub Actions, CI/CD, HTML, CSS
-
-### 2. AWS IAM Security + EC2 Segmentation
-
-Designed an AWS security lab using IAM access controls, EC2 resources, and segmented environments to demonstrate least privilege and secure cloud administration.
-
-**Skills:** AWS IAM, EC2, Security Groups, Least Privilege, Cloud Security
-
-### 3. Azure Remote Development Environment
-
-Created a remote development environment using Azure infrastructure, Terraform, Docker, and VS Code SSH to support cloud-based development workflows.
-
-**Skills:** Azure, Terraform, Docker, VS Code SSH, Linux
-
-### 4. Static Website Hosting on Amazon S3
-
-Hosted a static website on Amazon S3 to demonstrate cloud storage configuration, public website hosting, and basic AWS deployment practices.
-
-**Skills:** Amazon S3, AWS, Static Hosting, Bucket Policy, HTML, CSS
-
-### 5. AWS Image Label Generator
-
-Built an image-labeling project using Amazon Rekognition and S3 to identify objects in uploaded images and demonstrate cloud-based AI services.
-
-**Skills:** Amazon Rekognition, Amazon S3, AWS, Python, Cloud AI
-
-### 6. Terraform AWS Multi-AZ VPC
-
-Provisioned a multi-AZ AWS VPC proof of concept with Terraform to demonstrate infrastructure as code, networking, and scalable cloud architecture.
-
-**Skills:** Terraform, AWS VPC, Subnets, Routing, Infrastructure as Code
+| Tool | Used for |
+|---|---|
+| **Tenable / Nessus** | Enterprise vulnerability scanning platform — authenticated scans, reporting |
+| **Azure Virtual Machines** | Hosting the Nessus scan engine and the target Windows Server |
+| **PowerShell** | Remediation scripting on Windows targets |
+| **Bash** | Remediation scripting / automation |
 
 ---
 
-## Problems Encountered and Fixes
+## Program Walkthrough
 
-This project involved several real troubleshooting issues. The fixes below show how I identified problems, researched the cause, and updated the code or Git workflow.
+### 1. Draft the Policy
+Drafted the initial Vulnerability Management Policy — scope, responsibilities, and remediation timelines — as the starting point for stakeholder conversations.
 
-### Issue 1: Project Images Did Not Route to GitHub
+📎 *Add a link to your draft policy document here.*
 
-**Problem:**  
-After replacing the image links with GitHub repository URLs, clicking the project images did not always redirect to GitHub.
+### 2. Stakeholder Buy-In Meeting
+Presented the draft policy to the server team and stress-tested it against their real capacity to hit remediation timelines. Their feedback reshaped the policy — most notably, extending the critical-vulnerability remediation window from 48 hours to one week.
 
-**Cause:**  
-The original HTML5 UP Big Picture template uses a gallery/lightbox behavior. The gallery script can intercept clicks on images and open them as lightbox items instead of routing to external GitHub repositories.
+📸 *[Your screenshot/recording goes here — e.g., meeting thumbnail or notes]*
 
-**Fix:**
+### 3. Policy Finalization & Sign-Off
+Revised the policy based on server team feedback and secured final sign-off from senior leadership, turning it into the governing document for the whole program.
 
-- Changed the anchor class from the original image/lightbox behavior to a custom class: `project-link`.
-- Updated each project image link to use the GitHub repository URL.
-- Added `target="_blank"` so the project opens in a new browser tab.
-- Added `rel="noopener noreferrer"` for safer external linking.
-- Added visible **View Project on GitHub** links under each project card so users clearly know the cards route to GitHub.
+📎 *Add a link to your finalized policy document here.*
+📸 *[Your screenshot goes here]*
 
-**Skill Demonstrated:** HTML troubleshooting, template behavior analysis, external linking, user experience improvement.
+### 4. Scan Permission Meeting
+Negotiated with the server team to start credentialed scanning. Landed on a compromise: scan a single server first, monitor the performance impact, and use just-in-time Active Directory credentials to keep access tightly scoped.
 
----
+📸 *[Your screenshot/recording goes here]*
 
-### Issue 2: Project Cards Looked Crowded
+### 5. Initial Discovery Scan
+Stood up a deliberately insecure Windows Server on Azure to simulate the server team's real environment, introduced known vulnerabilities, then ran an authenticated Nessus scan and exported the results as the baseline for remediation.
 
-**Problem:**  
-After adding project titles, descriptions, and skills under each image, the project section looked crowded and text overlapped visually.
+📸 *[Your screenshot goes here — Scan 1: Initial Discovery Scan]*
 
-**Cause:**  
-The original gallery layout was designed mainly for images, not for full project cards with text content. Fixed image/card sizing caused the text to feel compressed.
+### 6. Assessment & Prioritization
+Triaged every finding and built a remediation order based on severity and effort to fix:
 
-**Fix:**
+1. Windows OS updates (re-enable + apply)
+2. Guest account in the local Administrators group
+3. Outdated third-party software (Wireshark)
+4. SMB signing disabled
+5. RDP without Network Level Authentication (NLA)
+6. Weak LAN Manager authentication level
 
-- Updated gallery CSS to use a wider layout.
-- Added spacing with `gap` and `margin-bottom`.
-- Set the image height on `.project-link` instead of forcing a fixed height on the entire article.
-- Added text styling for project titles and project descriptions.
-- Added responsive CSS so project cards stack cleanly on smaller screens.
+### 7. Distribute Remediations
+Packaged remediation scripts and scan reports and handed them to the server team, giving them everything needed to fix each finding ahead of a follow-up review.
 
-**Skill Demonstrated:** CSS layout troubleshooting, responsive design, project-card UI improvement.
+📎 *Add a link to your remediation email/write-up here.*
 
----
+### 8. Post-Scan Review Meeting
+Walked the server team through the scan results — outdated software, insecure accounts, deprecated protocols — and packaged the remediation plan for submission to the Change Advisory Board (CAB).
 
-### Issue 3: Contact Form Was Not Useful for Recruiters
+📸 *[Your screenshot/recording goes here]*
 
-**Problem:**  
-The original template included a contact form, but the form did not submit anywhere because the action was set to `#`.
+### 9. Change Advisory Board (CAB) Approval
+Presented the plan to disable insecure protocols and cipher suites to the CAB, including a rollback script and a tiered rollout, and got it approved.
 
-**Cause:**  
-Static websites do not process form submissions by default unless connected to a backend service or third-party form handler.
+📸 *[Your screenshot/recording goes here]*
 
-**Fix:**
+### 10. Remediation Cycle
+Worked through all six findings in priority order, verifying each fix with a follow-up scan:
 
-- Removed the contact form.
-- Replaced it with a direct email link using `mailto:`.
-- Added a resume download button.
-- Added clickable GitHub and LinkedIn icons.
-- Wrote a stronger recruiter-focused call-to-action.
+| Round | Fix | Verified by |
+|---|---|---|
+| 1 | Re-enabled and applied Windows OS updates | Follow-up scan ✅ |
+| 2 | Removed guest account from Administrators group | Follow-up scan ✅ |
+| 3 | Removed outdated Wireshark via PowerShell script | Follow-up scan ✅ |
+| 4 | Enabled SMB signing to stop man-in-the-middle risk | Follow-up scan ✅ |
+| 5 | Enabled Network Level Authentication (NLA) for RDP | Follow-up scan ✅ |
+| 6 | Restricted LAN Manager auth to NTLMv2 only | Follow-up scan ✅ |
 
-**Skill Demonstrated:** Static site limitation awareness, UX improvement, recruiter-focused design.
-
----
-
-### Issue 4: Resume Link Needed Correct File Placement
-
-**Problem:**  
-The resume button required the PDF file to be saved in the correct location.
-
-**Cause:**  
-The HTML button used a relative path: `resume.pdf`. If the resume was placed inside the wrong folder, the link would not work.
-
-**Fix:**
-
-- Saved the resume PDF in the same folder as `index.html`.
-- Used this link structure:
-
-```html
-<a href="resume.pdf" class="button" target="_blank" rel="noopener noreferrer">View Resume</a>
-```
-
-**Skill Demonstrated:** Relative path troubleshooting, static website file organization.
+📸 *[Your screenshots go here — Scans 2 through 7]*
 
 ---
 
-### Issue 5: HTML Structure Needed Cleanup
+## Results
 
-**Problem:**  
-Some closing tags were misplaced while editing the gallery and footer sections.
+| Metric | Before | After | Change |
+|---|---|---|---|
+| **Total vulnerabilities** | 26 | 5 | **↓ 81%** |
+| **Critical** | — | 0 | **↓ 100%** |
+| **High** | 8 | 1 | **↓ 88%** |
+| **Medium** | 15 | 3 | **↓ 80%** |
 
-**Cause:**  
-The original template had nested section, content, gallery, and article elements. While adding new project cards, extra closing tags could break layout structure.
+The five remaining findings (SQLite, Microsoft Edge, SSL certificates, ICMP timestamp) were carried into the next remediation cycle. In a real production environment, asset criticality would further shape how those are prioritized.
 
-**Fix:**
-
-- Corrected the gallery closing structure:
-
-```html
-</div>     <!-- closes .gallery -->
-</div>     <!-- closes .content -->
-</section> <!-- closes #work -->
-```
-
-- Moved the footer inside the `<body>` before the script tags.
-- Confirmed each section closes before the next section starts.
-
-**Skill Demonstrated:** HTML debugging, DOM structure cleanup, template editing.
+📸 *[Your final results screenshot/dashboard goes here]*
 
 ---
 
-### Issue 6: Side Panels Repeated Information
+## Ongoing Maintenance
 
-**Problem:**  
-The What I Do and Who I Am side panels repeated information already listed in the highlight cards.
+Once the first remediation cycle closed, the program moved into **maintenance mode** — the steady-state process that keeps a vulnerability management program working over time rather than a one-off exercise:
 
-**Cause:**  
-The first version of the side panels used similar wording to the main section cards.
+- **Scheduled scans** — recurring scans (weekly/monthly) to catch new vulnerabilities as systems change
+- **Patch management** — continuously applying security updates so critical findings don't linger
+- **Remediation follow-ups** — triaging and fixing new findings based on risk and impact
+- **Policy review** — periodically revisiting the policy against current best practices and org needs
+- **Audit & compliance** — internal checks against the policy and any external requirements
+- **Stakeholder communication** — keeping remediation teams looped in and coordinated
 
-**Fix:**
-
-- Updated the side panels so they serve a different purpose.
-- Used the side panels for quick-scan information.
-- Used the highlight cards for strengths and proof points.
-
-**Skill Demonstrated:** Content refinement, recruiter-focused UX, information architecture.
+📎 *Add a link to your finalized policy for the scanning/remediation cadence here.*
 
 ---
 
-### Issue 7: Git Push Failed Because Branch Had No Upstream
+<div align="center">
 
-**Problem:**  
-Running `git push` produced this message:
+Built as a hands-on vulnerability management simulation — see more projects at **[ev-portfolio.com](https://ev-portfolio.com)**
 
-```bash
-fatal: The current branch main has no upstream branch.
-```
-
-**Cause:**  
-The local `main` branch was not yet connected to the remote GitHub `main` branch.
-
-**Fix:**
-
-Used:
-
-```bash
-git push --set-upstream origin main
-```
-
-**Skill Demonstrated:** Git branch tracking, remote repository setup.
-
----
-
-### Issue 8: Push Rejected Due to Remote Changes
-
-**Problem:**  
-Git rejected the push because the local branch was behind the remote branch.
-
-**Cause:**  
-The GitHub repository had changes that were not yet in the local repository.
-
-**Fix:**
-
-- Pulled remote changes with rebase.
-- Resolved README conflict.
-- Staged the resolved README file.
-- Continued the rebase.
-- Pushed successfully to GitHub.
-
-Commands used during the process included:
-
-```bash
-git pull --rebase origin main
-git add README.md
-git rebase --continue
-git push --set-upstream origin main
-```
-
-**Skill Demonstrated:** Git conflict resolution, rebase workflow, version control troubleshooting.
-
----
-
-## Final Website Structure
-
-```text
-azure-static-portfolio/
-│
-├── README.md
-├── html-web-portfolio/
-│   ├── index.html
-│   ├── resume.pdf
-│   ├── assets/
-│   │   ├── css/
-│   │   │   └── main.css
-│   │   └── js/
-│   │       └── main.js
-│   └── images/
-│       ├── thumbs/
-│       └── fulls/
-```
-
----
-
-## Key Skills Demonstrated
-
-- Static website development
-- HTML and CSS customization
-- Responsive design troubleshooting
-- Git and GitHub version control
-- GitHub Actions deployment workflow
-- Azure Static Web Apps hosting
-- Resume portfolio design
-- Technical documentation
-- Cloud project presentation
-- Problem-solving and debugging
-- Recruiter-focused project organization
-
----
-
-## How to Run Locally
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/EvelioMorales/azure-static-portfolio.git
-```
-
-2. Open the project folder:
-
-```bash
-cd azure-static-portfolio/html-web-portfolio
-```
-
-3. Open `index.html` in a browser.
-
----
-
-## How to Update the Website
-
-1. Make changes to the website files.
-2. Stage the changes:
-
-```bash
-git add .
-```
-
-3. Commit the changes:
-
-```bash
-git commit -m "Update portfolio website"
-```
-
-4. Push to GitHub:
-
-```bash
-git push
-```
-
-5. Azure Static Web Apps will redeploy the site through the GitHub workflow.
-
----
-
-## Future Improvements
-
-- Add a live website URL once deployment is complete.
-- Add project screenshots or architecture diagrams for each project.
-- Add badges for Azure, AWS, Terraform, GitHub Actions, and CompTIA A+.
-- Add a dedicated skills section with categorized tools.
-- Add accessibility testing and performance optimization.
-- Add custom domain support.
-
----
-
-## Template Credit
-
-This project uses the **Big Picture** template from **HTML5 UP**. The template was customized for my personal resume portfolio and is used under the Creative Commons Attribution license.
-
-Template: https://html5up.net/big-picture
-
----
-
-## About Me
-
-I am Evelio Morales Jr., a bilingual IT professional focused on technical support, cloud engineering, and cybersecurity. This portfolio was built to demonstrate hands-on technical growth, cloud project experience, documentation skills, and readiness for IT support, cloud support, and cybersecurity-related roles.
+</div>
